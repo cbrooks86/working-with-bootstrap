@@ -47,12 +47,12 @@ footer {
 /* Flipcard Style */
 .flip-card {
     background-color: transparent;
-    min-height: 152px;
+    min-height: 150px;
     perspective: 1000px;
 }
 
-.flip-card h1 {
-    /* font-size: 16px; */
+.flip-card h2, .flip-card h3{
+    font-size: 1.25rem;
 }
 
 .flip-card-inner {
@@ -109,15 +109,19 @@ footer {
     background-color: #1098F7;
 }
 
+footer {
+    background: radial-gradient(circle, rgba(19,161,121,1) 31%, rgba(16,152,247,1) 100%);
+}
+
 /*
 MOBILE STYLES
 */
 
-@media only screen and (max-width: 991px) {
+/* @media only screen and (max-width: 991px) {
     .flip-card-back p {
         font-size: 1.2rem;
     }
-}
+} */
 
 @media only screen and (max-width: 767px) {
     .btn-sm-block {
