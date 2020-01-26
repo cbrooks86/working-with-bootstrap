@@ -21,12 +21,13 @@
 </head>
 
 <body>
+    
     <!-- Video BG -->
     <video autoplay muted loop id="myVideo">
         <source src="images/video/guatape.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
-
+    <div id="pagewrapper">
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="images/logo.png" width="100" /></a>
@@ -54,178 +55,23 @@
             <section class="col-12 pt-3">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <h1 class="text-green">Where to?</h1>
+                        <h1 class="text-green">Contact Us</h1>
                     </div>
                     <div class="col-6  col-lg-4 col-xl-3 flip-card mb-4">
-                        <a href="#">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front rounded">
-                                    <h2 class="m-1 m-md-0 d-lg-none">Guatapé</h2>
-                                    <img src="images/guatape.jpg" alt="Parque Arvi" class="img-fluid">
-                                    <h3 class="m-xl-2 m-md-2 d-none d-lg-block">Guatapé</h3>
-                                </div>
-                                <div class="flip-card-back rounded">
-                                    <h3 class="mt-1 m-lg-2">Guatapé</h3>
-                                    <p class="p-1">Guatapé is an Andean resort town in northwest Colombia, east of
-                                        Medellín.
-                                    </p>
-                                </div>
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                              <label for="email">Email:</label>
+                              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-12  col-lg-4 col-xl-3 flip-card mb-4">
-                        <a href="#">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front rounded">
-                                    <h2 class="m-1 m-md-0 d-lg-none">Nightlife</h2>
-                                    <img src="images/nightlife.jpg" alt="Parque Arvi" class="img-fluid">
-                                    <h3 class="m-xl-2 m-md-2 d-none d-lg-block">Nightlife</h3>
-                                </div>
-                                <div class="flip-card-back rounded">
-                                    <h3 class="mt-1 m-lg-2">Nightlife</h3>
-                                    <p class="p-1">Nightlife in Medellín is mostly about drinking and dancing Salsa,
-                                        Merengue, Bachata, or Reggaeton.
-                                    </p>
-                                </div>
+                            <div class="form-group">
+                              <label for="pwd">Password:</label>
+                              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-6  col-lg-4 col-xl-3 flip-card mb-4">
-                        <a href="#">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front rounded">
-                                    <h2 class="m-1 m-md-0 d-lg-none">Paragliding</h2>
-                                    <img src="images/volando.jpg" alt="Parque Arvi" class="img-fluid">
-                                    <h3 class="m-xl-2 m-md-2 d-none d-lg-block">Paragliding</h3>
-                                </div>
-                                <div class="flip-card-back rounded">
-                                    <h3 class="mt-1 m-lg-2">Paragliding</h3>
-                                    <p class="p-1">Feel the rush of adrenaline as you soar high above the Andes and take
-                                        in
-                                        views.
-                                    </p>
-                                </div>
+                            <div class="checkbox">
+                              <label><input type="checkbox" name="remember"> Remember me</label>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-6  col-lg-4 col-xl-3 flip-card mb-4">
-                        <a href="#">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front rounded">
-                                    <h2 class="m-1 m-md-0 d-lg-none">Pueblito Paisa</h2>
-                                    <img src="images/pueblitopaisa.jpg" alt="Parque Arvi" class="img-fluid">
-                                    <h3 class="m-xl-2 m-md-2 d-none d-lg-block">Pueblito Paisa</h3>
-                                </div>
-                                <div class="flip-card-back rounded">
-                                    <h3 class="mt-1 m-lg-2">Pueblito Paisa</h3>
-                                    <p class="p-1">A replica of a typical turn of the century town with a traditional
-                                        stone fountain in the town square.
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6  col-lg-4 col-xl-3 flip-card mb-4">
-                        <a href="#">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front rounded">
-                                    <h2 class="m-1 m-md-0 d-lg-none">Parque Arví</h2>
-                                    <img src="images/arvipark.jpg" alt="Parque Arvi" class="img-fluid">
-                                    <h3 class="m-xl-2 m-md-2 d-none d-lg-block">Parque Arví</h3>
-                                </div>
-                                <div class="flip-card-back rounded">
-                                    <h3 class="mt-1 m-lg-2">Parque Arví</h3>
-                                    <p class="p-1">Arví Park is both an ecological nature preserve and Pre-Hispanic
-                                        archeological site.
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6  col-lg-4 col-xl-3 flip-card mb-4">
-                        <a href="#">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front rounded">
-                                    <h2 class="m-1 m-md-0 d-lg-none">Plaza Botero</h2>
-                                    <img src="images/botero.jpg" alt="Parque Arvi" class="img-fluid">
-                                    <h3 class="m-xl-2 m-md-2 d-none d-lg-block">Plaza Botero</h3>
-                                </div>
-                                <div class="flip-card-back rounded">
-                                    <h3 class="mt-1 m-lg-2">Plaza Botero</h3>
-                                    <p class="p-1">Surrounded by the Museum of Antioquia, this park displays 23
-                                        sculptures by Fernando Botero.
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6  col-lg-4 col-xl-3 flip-card mb-4">
-                        <a href="#">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front rounded">
-                                    <h2 class="m-1 m-md-0 d-lg-none">Metrocable</h2>
-                                    <img src="images/metrocable.jpg" alt="Parque Arvi" class="img-fluid">
-                                    <h3 class="m-xl-2 m-md-2 d-none d-lg-block">Metrocable</h3>
-                                </div>
-                                <div class="flip-card-back rounded">
-                                    <h3 class="mt-1 m-lg-2">Metrocable</h3>
-                                    <p class="p-1">This gondola lift was system designed to reach some of the informal
-                                        settlements on the steep hills of city.
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6  col-lg-4 col-xl-3 flip-card mb-4">
-                        <a href="#">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front rounded">
-                                    <h2 class="m-1 m-md-0 d-lg-none">Parque Lleras</h2>
-                                    <img src="images/lleras.jpg" alt="Parque Arvi" class="img-fluid">
-                                    <h3 class="m-xl-2 m-md-2 d-none d-lg-block">Parque Lleras</h3>
-                                </div>
-                                <div class="flip-card-back rounded">
-                                    <h3 class="mt-1 m-lg-2">Parque Lleras</h3>
-                                    <p class="p-1">The zona rosa of Medellín. A place where you can find restaurants,
-                                        cafés, bars, and clubs.
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6  col-lg-4 col-xl-3 flip-card mb-4">
-                        <a href="#">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front rounded">
-                                    <h2 class="m-1 m-md-0 d-lg-none">Comuna 13</h2>
-                                    <img src="images/comuna13.jpg" alt="Parque Arvi" class="img-fluid">
-                                    <h3 class="m-xl-2 m-md-2 d-none d-lg-block">Comuna 13</h3>
-                                </div>
-                                <div class="flip-card-back rounded">
-                                    <h3 class="mt-1 m-lg-2">Comuna 13</h3>
-                                    <p class="p-1">Once one of the most violent areas in the city, now known for its
-                                        street art, boutique and outdoor escalators.
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6  col-lg-4 col-xl-3 flip-card mb-4">
-                        <a href="#">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front rounded">
-                                    <h2 class="m-1 m-md-0 d-lg-none">Parque Explora</h2>
-                                    <img src="images/explora.jpg" alt="Parque Arvi" class="img-fluid">
-                                    <h3 class="m-xl-2 m-md-2 d-none d-lg-block">Parque Explora</h3>
-                                </div>
-                                <div class="flip-card-back rounded">
-                                    <h3 class="mt-1 m-lg-2">Parque Explora</h3>
-                                    <p class="p-1">An interactive science museum, and Home to the largest freshwater
-                                        aquarium in South America.
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                          </form>
                     </div>
                 </div>
             </section>
@@ -253,7 +99,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-    <!-- </div> -->
+    </div>
 </body>
 
 </html>
