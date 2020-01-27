@@ -39,6 +39,15 @@ footer {
     background-color: #EFEFEF;
 }
 
+form label, form legend{
+    font-family: 'PT Sans', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    /* text-shadow: .5px .5px 10px #ffffff; */
+
+}
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -99,6 +108,15 @@ footer {
 
 .text-green {
     color: #13A179;
+}
+
+a.left-menu{
+    text-decoration: none;
+}
+
+.left-menu div:hover{
+    background-color: #1098F7;
+    transition: 0.3s;
 }
 
 .background-green {
