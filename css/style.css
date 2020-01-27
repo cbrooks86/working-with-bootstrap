@@ -5,7 +5,7 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300|PT+Sans:700&display=swap');
 
-section{
+section {
     min-height: 100vh;
 }
 
@@ -39,13 +39,12 @@ footer {
     background-color: #EFEFEF;
 }
 
-form label, form legend{
+form label,
+form legend {
     font-family: 'PT Sans', sans-serif;
     color: #000000;
     font-weight: 700;
     font-size: 18px;
-    /* text-shadow: .5px .5px 10px #ffffff; */
-
 }
 
 #myVideo {
@@ -64,7 +63,8 @@ form label, form legend{
     perspective: 1000px;
 }
 
-.flip-card h2, .flip-card h3{
+.flip-card h2,
+.flip-card h3 {
     font-size: 1.25rem;
 }
 
@@ -110,11 +110,11 @@ form label, form legend{
     color: #13A179;
 }
 
-a.left-menu{
+a.left-menu {
     text-decoration: none;
 }
 
-.left-menu div:hover{
+.left-menu div:hover {
     background-color: #1098F7;
     transition: 0.3s;
 }
@@ -134,19 +134,9 @@ a.left-menu{
 }
 
 footer {
-    background: radial-gradient(circle, rgba(19,161,121,1) 31%, rgba(16,152,247,1) 100%);
+    background: radial-gradient(circle, rgba(19, 161, 121, 1) 31%, rgba(16, 152, 247, 1) 100%);
     font-family: 'open sans';
 }
-
-/*
-MOBILE STYLES
-*/
-
-/* @media only screen and (max-width: 991px) {
-    .flip-card-back p {
-        font-size: 1.2rem;
-    }
-} */
 
 @media only screen and (max-width: 767px) {
     .btn-sm-block {
