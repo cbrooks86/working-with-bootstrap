@@ -93,12 +93,12 @@ form legend {
 
 .flip-card-front {
     background-color: #13A179;
-    color: #D8D8D8;
+    color: #FFFFFF;
 }
 
 .flip-card-back {
     background-color: #1098F7;
-    color: #EFEFEF;
+    color: #FFFFFF;
     transform: rotateY(180deg);
 }
 
